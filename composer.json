@@ -1,0 +1,9 @@
+{
+	"name": "mediawiki/blue-spice-social-article-actions",
+	"type": "mediawiki-extension",
+	"description": "Adds basic article action entries to social",
+	"license": "GPL-3.0",
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}
