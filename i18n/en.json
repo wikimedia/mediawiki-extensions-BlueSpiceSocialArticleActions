@@ -4,7 +4,7 @@
 			"Patric Wirth <wirth@hallowelt.com>"
 		]
 	},
-	"bs-socialarticleactions-desc": "BSSocial",
+	"bs-socialarticleactions-desc": "Adds basic article action entries to social",
 	"bs-socialarticleactions-type-articlesave": "Article edit",
 	"bs-socialarticleactions-type-articlecreate": "Article create",
 	"bs-socialarticleactions-type-articledelete": "Article delete",
