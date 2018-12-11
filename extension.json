@@ -36,14 +36,14 @@
 	},
 	"ResourceModules": {
 		"ext.bluespice.socialarticleactions.styles": {
-			"targets": [ "desktop", "mobile" ],
-			"styles": "bluespice.socialarticleactions.css"
+			"styles": [
+				"bluespice.socialarticleactions.css"
+			]
 		},
 		"ext.bluespice.social.entity.action.articlecreate": {
 			"dependencies": [
 				"ext.bluespice.social.entity.action"
 			],
-			"targets": [ "desktop", "mobile" ],
 			"scripts": [
 				"entities/bluespice.social.Entity.Action.ArticleCreate.js"
 			]
@@ -52,7 +52,6 @@
 			"dependencies": [
 				"ext.bluespice.social.entity.action"
 			],
-			"targets": [ "desktop", "mobile" ],
 			"scripts": [
 				"entities/bluespice.social.Entity.Action.ArticleDelete.js"
 			]
@@ -61,7 +60,6 @@
 			"dependencies": [
 				"ext.bluespice.social.entity.action"
 			],
-			"targets": [ "desktop", "mobile" ],
 			"scripts": [
 				"entities/bluespice.social.Entity.Action.ArticleSave.js"
 			]
@@ -70,7 +68,6 @@
 			"dependencies": [
 				"ext.bluespice.social.entity.action"
 			],
-			"targets": [ "desktop", "mobile" ],
 			"scripts": [
 				"entities/bluespice.social.Entity.Action.FileCreate.js"
 			]
@@ -79,7 +76,6 @@
 			"dependencies": [
 				"ext.bluespice.social.entity.action"
 			],
-			"targets": [ "desktop", "mobile" ],
 			"scripts": [
 				"entities/bluespice.social.Entity.Action.FileDelete.js"
 			]
@@ -88,7 +84,6 @@
 			"dependencies": [
 				"ext.bluespice.social.entity.action"
 			],
-			"targets": [ "desktop", "mobile" ],
 			"scripts": [
 				"entities/bluespice.social.Entity.Action.FileSave.js"
 			]
