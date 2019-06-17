@@ -14,7 +14,7 @@ class CreateFileSaveEntity extends UploadComplete {
 			return true;
 		}
 
-		$res = wfGetDB( DB_SLAVE )->select(
+		$res = wfGetDB( DB_REPLICA )->select(
 			'oldimage',
 			'oi_name',
 			[ 'oi_name' => $file->getTitle()->getDBkey() ],
