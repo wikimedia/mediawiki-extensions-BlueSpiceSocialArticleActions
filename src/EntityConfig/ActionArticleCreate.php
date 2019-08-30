@@ -30,32 +30,63 @@
  * @filesource
  */
 namespace BlueSpice\Social\ArticleActions\EntityConfig;
+
 use BlueSpice\Social\EntityConfig\ActionWikiPage;
+
 /**
  * SocialEntityActionArticleCreateConfig class for BSSocial extension
  * @package BlueSpiceSocial
  * @subpackage BSSocial
  */
 class ActionArticleCreate extends ActionWikiPage {
+	/**
+	 *
+	 * @return array
+	 */
 	public function addGetterDefaults() {
-		return array();
+		return [];
 	}
+
+	/**
+	 *
+	 * @return string
+	 */
 	protected function get_HeaderMessageKey() {
 		return 'bs-socialarticleactions-entityactionarticlecreate-header';
 	}
+
+	/**
+	 *
+	 * @return string
+	 */
 	protected function get_EntityClass() {
 		return "\\BlueSpice\\Social\\ArticleActions\\Entity\\ActionArticleCreate";
 	}
+
+	/**
+	 *
+	 * @return array
+	 */
 	protected function get_ModuleScripts() {
 		return array_merge( parent::get_ModuleScripts(), [
 			'ext.bluespice.social.entity.action.articlecreate',
-		]);
+		] );
 	}
+
+	/**
+	 *
+	 * @return array
+	 */
 	protected function get_ModuleStyles() {
 		return array_merge( parent::get_ModuleStyles(), [
 			'ext.bluespice.socialarticleactions.styles',
-		]);
+		] );
 	}
+
+	/**
+	 *
+	 * @return string
+	 */
 	protected function get_TypeMessageKey() {
 		return 'bs-socialarticleactions-type-articlecreate';
 	}

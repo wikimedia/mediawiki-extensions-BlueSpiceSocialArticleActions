@@ -30,7 +30,9 @@
  * @filesource
  */
 namespace BlueSpice\Social\ArticleActions\Entity;
+
 use BlueSpice\Social\Entity\ActionFile;
+
 /**
  * FileSave class for BSSocial extension
  * @package BlueSpiceSocial
@@ -39,8 +41,14 @@ use BlueSpice\Social\Entity\ActionFile;
 class ActionFileSave extends ActionFile {
 	const TYPE = 'filesave';
 
+	/**
+	 *
+	 * @param string $attrName
+	 * @param mixed|null $default
+	 * @return mixed
+	 */
 	public function get( $attrName, $default = null ) {
-		if( $attrName === static::ATTR_ACTION ) {
+		if ( $attrName === static::ATTR_ACTION ) {
 			return 'edit';
 		}
 		return parent::get( $attrName, $default );

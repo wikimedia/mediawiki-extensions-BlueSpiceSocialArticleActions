@@ -30,32 +30,63 @@
  * @filesource
  */
 namespace BlueSpice\Social\ArticleActions\EntityConfig;
+
 use BlueSpice\Social\EntityConfig\ActionWikiPage;
+
 /**
  * ArticleSave class for BSSocial extension
  * @package BlueSpiceSocial
  * @subpackage BSSocial
  */
 class ActionArticleSave extends ActionWikiPage {
+	/**
+	 *
+	 * @return array
+	 */
 	public function addGetterDefaults() {
-		return array();
+		return [];
 	}
+
+	/**
+	 *
+	 * @return string
+	 */
 	protected function get_HeaderMessageKey() {
 		return 'bs-socialarticleactions-entityactionarticlesave-header';
 	}
+
+	/**
+	 *
+	 * @return string
+	 */
 	protected function get_EntityClass() {
 		return "\\BlueSpice\\Social\\ArticleActions\\Entity\\ActionArticleSave";
 	}
+
+	/**
+	 *
+	 * @return array
+	 */
 	protected function get_ModuleScripts() {
 		return array_merge( parent::get_ModuleScripts(), [
 			'ext.bluespice.social.entity.action.articlesave',
-		]);
+		] );
 	}
+
+	/**
+	 *
+	 * @return array
+	 */
 	protected function get_ModuleStyles() {
 		return array_merge( parent::get_ModuleStyles(), [
 			'ext.bluespice.socialarticleactions.styles',
-		]);
+		] );
 	}
+
+	/**
+	 *
+	 * @return string
+	 */
 	protected function get_TypeMessageKey() {
 		return 'bs-socialarticleactions-type-articlesave';
 	}
