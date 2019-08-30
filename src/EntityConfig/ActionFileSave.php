@@ -30,32 +30,63 @@
  * @filesource
  */
 namespace BlueSpice\Social\ArticleActions\EntityConfig;
+
 use BlueSpice\Social\EntityConfig\ActionFile;
+
 /**
  * FileSave class for BSSocial extension
  * @package BlueSpiceSocial
  * @subpackage BSSocial
  */
 class ActionFileSave extends ActionFile {
+	/**
+	 *
+	 * @return array
+	 */
 	public function addGetterDefaults() {
-		return array();
+		return [];
 	}
+
+	/**
+	 *
+	 * @return string
+	 */
 	protected function get_HeaderMessageKey() {
 		return 'bs-socialarticleactions-entityactionfilesave-header';
 	}
+
+	/**
+	 *
+	 * @return string
+	 */
 	protected function get_EntityClass() {
 		return "\\BlueSpice\\Social\\ArticleActions\\Entity\\ActionFileSave";
 	}
+
+	/**
+	 *
+	 * @return array
+	 */
 	protected function get_ModuleScripts() {
 		return array_merge( parent::get_ModuleScripts(), [
 			'ext.bluespice.social.entity.action.filesave',
-		]);
+		] );
 	}
+
+	/**
+	 *
+	 * @return array
+	 */
 	protected function get_ModuleStyles() {
 		return array_merge( parent::get_ModuleStyles(), [
 			'ext.bluespice.socialarticleactions.styles',
-		]);
+		] );
 	}
+
+	/**
+	 *
+	 * @return string
+	 */
 	protected function get_TypeMessageKey() {
 		return 'bs-socialarticleactions-type-filesave';
 	}

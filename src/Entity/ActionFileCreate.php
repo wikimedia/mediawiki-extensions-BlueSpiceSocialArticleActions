@@ -30,7 +30,9 @@
  * @filesource
  */
 namespace BlueSpice\Social\ArticleActions\Entity;
+
 use BlueSpice\Social\Entity\ActionFile;
+
 /**
  * FileCreate class for BSSocial extension
  * @package BlueSpiceSocial

@@ -3,6 +3,7 @@
  * Hook handler for MediaWiki hook UploadComplete
  */
 namespace BlueSpice\Social\ArticleActions\Hook\UploadComplete;
+
 use BlueSpice\Hook\UploadComplete;
 
 class CreateFileCreateEntity extends UploadComplete {
@@ -10,7 +11,7 @@ class CreateFileCreateEntity extends UploadComplete {
 	protected function skipProcessing() {
 		$file = $this->upload->getLocalFile();
 
-		if( !$file || !$file->exists() || !$file->isLocal()) {
+		if ( !$file || !$file->exists() || !$file->isLocal() ) {
 			return true;
 		}
 
@@ -21,8 +22,8 @@ class CreateFileCreateEntity extends UploadComplete {
 			__METHOD__,
 			[ 'ORDER BY' => 'oi_timestamp DESC' ]
 		);
-		//we only need new uploads
-		if( $res->numRows() > 0 ) {
+		// we only need new uploads
+		if ( $res->numRows() > 0 ) {
 			return true;
 		}
 
@@ -35,7 +36,7 @@ class CreateFileCreateEntity extends UploadComplete {
 		$entityFactory = $this->getServices()->getService(
 			'BSEntityFactory'
 		);
-		$entity = $entityFactory->newFromObject( (object) [
+		$entity = $entityFactory->newFromObject( (object)[
 			'ownerid' => $file->getUser( 'id' ),
 			'summary' => $file->getDescription(),
 			'titletext' => $file->getTitle()->getText(),
@@ -43,14 +44,14 @@ class CreateFileCreateEntity extends UploadComplete {
 			'filename' => $file->getName(),
 			'filetimestamp' => $file->getTimestamp(),
 			'type' => 'filecreate',
-		]);
+		] );
 
-		if( !$entity ) {
-			//do not fatal - here is something wrong very bad!
+		if ( !$entity ) {
+			// do not fatal - here is something wrong very bad!
 			return true;
 		}
 
-		//TODO: Status check
+		// TODO: Status check
 		$status = $entity->save();
 		return true;
 	}
