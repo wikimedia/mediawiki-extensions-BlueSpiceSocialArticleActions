@@ -29,35 +29,18 @@ namespace BlueSpice\Social\ArticleActions;
 
 class Extension extends \BlueSpice\Extension {
 
-	public static function isTrackedNamespace( $iNamespace = 0 ) {
-		return !in_array( $iNamespace, [
+	/**
+	 *
+	 * @param int $namespace
+	 * @return bool
+	 */
+	public static function isTrackedNamespace( $namespace = 0 ) {
+		return !in_array( $namespace, [
 			NS_SOCIALENTITY,
 			NS_USER,
 			NS_MEDIAWIKI,
 			NS_FILE
-		]);
-	}
-	/**
-	 * @param Article $oArticle
-	 * @param User $oUser
-	 * @param Content $oContent
-	 * @param Revision $oRevision
-	 * @return string
-	 */
-	public static function getAutoEditSummaray( $oArticle, $oUser, $oContent, $oRevision ) {
-		global $wgLanguageCode;
-		$sText = wfMessage( 'bs-socialarticleactions-autoeditsummaray' )
-			->inLanguage( $wgLanguageCode )
-			->plain();
-		return $sText;
+		] );
 	}
 
-	/**
-	 * TODO: Track title move and apply them to the action entities - also for
-	 * files!
-	 * @return boolean
-	 */
-	public static function onTitleMoveComplete() {
-		return true;
-	}
 }

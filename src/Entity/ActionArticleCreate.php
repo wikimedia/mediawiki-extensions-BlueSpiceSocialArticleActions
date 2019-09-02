@@ -30,7 +30,9 @@
  * @filesource
  */
 namespace BlueSpice\Social\ArticleActions\Entity;
+
 use BlueSpice\Social\Entity\ActionWikiPage;
+
 /**
  * ArticleCreate class for BSSocial extension
  * @package BlueSpiceSocial
