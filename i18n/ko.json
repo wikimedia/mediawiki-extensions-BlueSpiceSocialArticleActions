@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"bs-socialarticleactions-entityactionfilecreate-header": "[[User:$1|$2]]님이 [[:$6|$6]] 파일을 업로드했습니다",
+	"bs-socialarticleactions-autoeditsummaray": "(요약 없음)"
+}

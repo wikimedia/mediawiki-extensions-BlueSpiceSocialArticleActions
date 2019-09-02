@@ -5,6 +5,8 @@
 		]
 	},
 	"bs-socialarticleactions-desc": "Adiciona entradas básicas de ação de artigo ao BlueSpiceSocial",
+	"bs-socialarticleactions-type-articlesave": "Edição de artigo",
+	"bs-socialarticleactions-type-articlecreate": "Criação de artigo",
 	"bs-socialarticleactions-type-articledelete": "Excluir artigo",
 	"bs-socialarticleactions-type-filesave": "Edição de arquivo",
 	"bs-socialarticleactions-type-filecreate": "Criação de arquivo",
