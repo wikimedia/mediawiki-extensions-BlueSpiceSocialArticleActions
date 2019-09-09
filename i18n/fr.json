@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gomoko"
+			"Gomoko",
+			"Verdy p"
 		]
 	},
-	"bs-socialarticleactions-desc": "Ajoute les entrées d’action de base de l’article à BlusSpiceSocial",
+	"bs-socialarticleactions-desc": "Ajoute les entrées d’action de base de l’article à ''BlueSpiceSocial''",
 	"bs-socialarticleactions-type-articlesave": "Modification de l’article",
 	"bs-socialarticleactions-type-articlecreate": "Création de l’article",
 	"bs-socialarticleactions-type-articledelete": "Suppression de l’article",
