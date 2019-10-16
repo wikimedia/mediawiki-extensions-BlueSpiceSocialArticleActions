@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mansil alfalb"
+			"Mansil alfalb",
+			"Hamilton Abreu"
 		]
 	},
 	"bs-socialarticleactions-type-articlesave": "Edição de artigo",
@@ -14,6 +15,6 @@
 	"bs-socialarticleactions-entityactionarticlecreate-header": "[[User:$1|$2]] criou o artigo [[:$6|$6]]",
 	"bs-socialarticleactions-entityactionarticledelete-header": "[[User:$1|$2]] eliminou o artigo [[:$6|$6]]",
 	"bs-socialarticleactions-entityactionfilesave-header": "[[User:$1|$2]] adicionou uma nova versão do ficheiro [[:$6|$6]]",
-	"bs-socialarticleactions-entityactionfilecreate-header": "[[User:$1|$2]] enviou o ficheiro [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfilecreate-header": "[[User:$1|$2]] carregou o ficheiro [[:$6|$6]]",
 	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] eliminou o ficheiro [[:$6|$6]]"
 }
