@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Patric Wirth",
-			"Vlad5250"
+			"Vlad5250",
+			"Umherirrender"
 		]
 	},
-	"bs-socialarticleactions-desc": "{{desc|name=BlueSpiceSocialArticleAction}}",
+	"bs-socialarticleactions-desc": "{{desc|name=BlueSpiceSocialArticleActions}}",
 	"bs-socialarticleactions-type-articlesave": "Label for option \"articlesave\" in entry field \"type\"\n\n{{Identical|Article edit}}",
 	"bs-socialarticleactions-type-articlecreate": "Label for option \"articlecreate\" in entry field \"type\"\n\n{{Identical|Article create}}",
 	"bs-socialarticleactions-type-articledelete": "Label for option \"articledelete\" in entry field \"type\"\n\n{{Identical|Article delete}}",
