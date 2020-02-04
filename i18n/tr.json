@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"bs-socialarticleactions-desc": "BlueSpiceSocial'a temel makale eylem girişleri ekler",
+	"bs-socialarticleactions-type-articlesave": "Makale düzenleme",
+	"bs-socialarticleactions-type-articlecreate": "Makale oluşturma",
+	"bs-socialarticleactions-type-articledelete": "Makale silme",
+	"bs-socialarticleactions-type-filesave": "Dosya düzenleme",
+	"bs-socialarticleactions-type-filecreate": "Dosya oluşturma",
+	"bs-socialarticleactions-type-filedelete": "Dosya silme",
+	"bs-socialarticleactions-entityactionarticlesave-header": "[[User:$1|$2]] makaleyi düzenledi [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionarticlecreate-header": "[[User:$1|$2]] makaleyi oluşturdu [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionarticledelete-header": "[[User:$1|$2]] makaleyi sildi [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfilesave-header": "[[User:$1|$2]] dosyanın yeni bir sürümünü ekledi [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfilecreate-header": "[[User:$1|$2]] dosyayı güncelledi [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] dosyayı sildi [[:$6|$6]]",
+	"bs-socialarticleactions-autoeditsummaray": "(Özet yok)"
+}
