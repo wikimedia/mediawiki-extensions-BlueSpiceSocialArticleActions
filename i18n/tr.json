@@ -11,11 +11,11 @@
 	"bs-socialarticleactions-type-filesave": "Dosya düzenleme",
 	"bs-socialarticleactions-type-filecreate": "Dosya oluşturma",
 	"bs-socialarticleactions-type-filedelete": "Dosya silme",
-	"bs-socialarticleactions-entityactionarticlesave-header": "[[User:$1|$2]] makaleyi düzenledi [[:$6|$6]]",
-	"bs-socialarticleactions-entityactionarticlecreate-header": "[[User:$1|$2]] makaleyi oluşturdu [[:$6|$6]]",
-	"bs-socialarticleactions-entityactionarticledelete-header": "[[User:$1|$2]] makaleyi sildi [[:$6|$6]]",
-	"bs-socialarticleactions-entityactionfilesave-header": "[[User:$1|$2]] dosyanın yeni bir sürümünü ekledi [[:$6|$6]]",
-	"bs-socialarticleactions-entityactionfilecreate-header": "[[User:$1|$2]] dosyayı güncelledi [[:$6|$6]]",
-	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] dosyayı sildi [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionarticlesave-header": "[[User:$1|$2]], [[:$6|$6]] maddeyi düzenledi",
+	"bs-socialarticleactions-entityactionarticlecreate-header": "[[User:$1|$2]], [[:$6|$6]] maddeyi oluşturdu",
+	"bs-socialarticleactions-entityactionarticledelete-header": "[[User:$1|$2]], [[:$6|$6]] maddeyi sildi",
+	"bs-socialarticleactions-entityactionfilesave-header": "[[User:$1|$2]], [[:$6|$6]] dosyanın yeni bir sürümünü ekledi",
+	"bs-socialarticleactions-entityactionfilecreate-header": "[[User:$1|$2]], [[:$6|$6]] dosyayı güncelledi",
+	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]], [[:$6|$6]] dosyayı sildi",
 	"bs-socialarticleactions-autoeditsummaray": "(Özet yok)"
 }
