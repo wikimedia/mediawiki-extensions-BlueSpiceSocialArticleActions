@@ -101,9 +101,9 @@
 		"remoteExtPath": "BlueSpiceSocialArticleActions/resources"
 	},
 	"Hooks": {
-		"PageContentSaveComplete": [
-			"\\BlueSpice\\Social\\ArticleActions\\Hook\\PageContentSaveComplete\\CreateArticleCreateEntity::callback",
-			"\\BlueSpice\\Social\\ArticleActions\\Hook\\PageContentSaveComplete\\CreateArticleSaveEntity::callback"
+		"PageSaveComplete": [
+			"\\BlueSpice\\Social\\ArticleActions\\Hook\\PageSaveComplete\\CreateArticleCreateEntity::callback",
+			"\\BlueSpice\\Social\\ArticleActions\\Hook\\PageSaveComplete\\CreateArticleSaveEntity::callback"
 		],
 		"ArticleDeleteComplete": "\\BlueSpice\\Social\\ArticleActions\\Hook\\ArticleDeleteComplete\\CreateArticleDeleteEntity::callback",
 		"UploadComplete": [

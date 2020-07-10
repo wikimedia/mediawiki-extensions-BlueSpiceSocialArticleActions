@@ -1,22 +1,17 @@
 <?php
-namespace BlueSpice\Social\ArticleActions\Hook\PageContentSaveComplete;
+namespace BlueSpice\Social\ArticleActions\Hook\PageSaveComplete;
 
-use BlueSpice\Hook\PageContentSaveComplete;
+use BlueSpice\Hook\PageSaveComplete;
 
-class CreateArticleSaveEntity extends PageContentSaveComplete {
+class CreateArticleCreateEntity extends PageSaveComplete {
 	protected function skipProcessing() {
-		if ( $this->isMinor || !$this->revision ) {
+		if ( ( $this->flags & EDIT_MINOR ) || !$this->revisionRecord ) {
 			return true;
 		}
-		if ( !$this->status->isOK() || $this->status->hasMessage( 'edit-no-change' ) ) {
-			// ugly. we need to check the status object for the no edit warning,
-			// cause on this point in the code it ist - unfortunaltey -
-			// impossible to find out, if this edit changed something.
-			// '$article->getLatest()' is always the same as
-			// '$this->revision->getId()'. '$baseRevId' is always 'false' #5240
+		if ( $this->editResult->isNullEdit() ) {
 			return true;
 		}
-		$title = $this->wikipage->getTitle();
+		$title = $this->wikiPage->getTitle();
 
 		if ( !$title || !$title->exists() ) {
 			return true;
@@ -33,7 +28,7 @@ class CreateArticleSaveEntity extends PageContentSaveComplete {
 		if ( $title->getContentModel() != 'wikitext' ) {
 			return true;
 		}
-		if ( $title->isNewPage() ) {
+		if ( !$title->isNewPage() ) {
 			return true;
 		}
 
@@ -41,7 +36,7 @@ class CreateArticleSaveEntity extends PageContentSaveComplete {
 	}
 
 	protected function doProcess() {
-		$title = $this->wikipage->getTitle();
+		$title = $this->wikiPage->getTitle();
 
 		$entityFactory = $this->getServices()->getService(
 			'BSEntityFactory'
@@ -51,8 +46,8 @@ class CreateArticleSaveEntity extends PageContentSaveComplete {
 			'wikipageid' => $title->getArticleID(),
 			'titletext' => $title->getText(),
 			'namespace' => $title->getNamespace(),
-			'revisionid' => $this->revision->getId(),
-			'type' => 'articlesave',
+			'revisionid' => $this->revisionRecord->getId(),
+			'type' => 'articlecreate',
 		] );
 		if ( !$entity ) {
 			// do not fatal - here is something wrong very bad! :(
