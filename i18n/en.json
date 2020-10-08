@@ -16,6 +16,5 @@
 	"bs-socialarticleactions-entityactionarticledelete-header": "[[User:$1|$2]] deleted the article [[:$6|$6]]",
 	"bs-socialarticleactions-entityactionfilesave-header": "[[User:$1|$2]] added a new version of the file [[:$6|$6]]",
 	"bs-socialarticleactions-entityactionfilecreate-header": "[[User:$1|$2]] uploaded the file [[:$6|$6]]",
-	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] deleted the file [[:$6|$6]]",
-	"bs-socialarticleactions-autoeditsummaray": "(No summaray)"
+	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] deleted the file [[:$6|$6]]"
 }
