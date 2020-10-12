@@ -16,6 +16,5 @@
 	"bs-socialarticleactions-entityactionarticledelete-header": "[[User:$1|$2]] slettet artikkelen [[:$6|$6]]",
 	"bs-socialarticleactions-entityactionfilesave-header": "[[User:$1|$2]] la til en ny versjon av fila [[:$6|$6]]",
 	"bs-socialarticleactions-entityactionfilecreate-header": "[[User:$1|$2]] lastet opp fila [[:$6|$6]]",
-	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] slettet fila [[:$6|$6]]",
-	"bs-socialarticleactions-autoeditsummaray": "(Intet sammendrag)"
+	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] slettet fila [[:$6|$6]]"
 }

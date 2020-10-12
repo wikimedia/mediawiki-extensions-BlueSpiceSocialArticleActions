@@ -16,6 +16,5 @@
 	"bs-socialarticleactions-entityactionarticledelete-header": "[[User:$1|$2]] ave scangellate 'a vôsce [[:$6|$6]]",
 	"bs-socialarticleactions-entityactionfilesave-header": "[[User:$1|$2]] ave aggiunde 'na versiona nove d'u file [[:$6|$6]]",
 	"bs-socialarticleactions-entityactionfilecreate-header": "[[User:$1|$2]] ave carecate 'u file [[:$6|$6]]",
-	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] ave scangellate 'u file [[:$6|$6]]",
-	"bs-socialarticleactions-autoeditsummaray": "(Nisciune riepiloghe)"
+	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] ave scangellate 'u file [[:$6|$6]]"
 }

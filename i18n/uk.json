@@ -16,6 +16,5 @@
 	"bs-socialarticleactions-entityactionarticledelete-header": "[[User:$1|$2]] {{GENDER:$1|вилучив|вилучила}} статтю [[:$6|$6]]",
 	"bs-socialarticleactions-entityactionfilesave-header": "[[User:$1|$2]] {{GENDER:$1|додав|додала}} нову версію файлу [[:$6|$6]]",
 	"bs-socialarticleactions-entityactionfilecreate-header": "[[User:$1|$2]] {{GENDER:$1|завантажив|завантажила}} файл [[:$6|$6]]",
-	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] {{GENDER:$1|вилучив|вилучила}} файл [[:$6|$6]]",
-	"bs-socialarticleactions-autoeditsummaray": "(Без опису змін)"
+	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] {{GENDER:$1|вилучив|вилучила}} файл [[:$6|$6]]"
 }

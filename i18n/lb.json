@@ -15,6 +15,5 @@
 	"bs-socialarticleactions-entityactionarticledelete-header": "[[User:$1|$2]] huet den Artikel [[:$6|$6]] geläscht",
 	"bs-socialarticleactions-entityactionfilesave-header": "[[User:$1|$2]] huet eng nei Versioun vum Fichier [[:$6|$6]] eropgelueden",
 	"bs-socialarticleactions-entityactionfilecreate-header": "[[User:$1|$2]] huet de Fichier [[:$6|$6]] eropgelueden",
-	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] huet de Fichier [[:$6|$6]] geläscht",
-	"bs-socialarticleactions-autoeditsummaray": "(Kee Resumé)"
+	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] huet de Fichier [[:$6|$6]] geläscht"
 }

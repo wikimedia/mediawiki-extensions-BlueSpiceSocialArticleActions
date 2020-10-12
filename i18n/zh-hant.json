@@ -16,6 +16,5 @@
 	"bs-socialarticleactions-entityactionarticledelete-header": "[[User:$1|$2]]已刪除條目[[:$6|$6]]",
 	"bs-socialarticleactions-entityactionfilesave-header": "[[User:$1|$2]]已新增檔案[[:$6|$6]]的新版本",
 	"bs-socialarticleactions-entityactionfilecreate-header": "[[User:$1|$2]]已上傳檔案[[:$6|$6]]",
-	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]]已刪除檔案[[:$6|$6]]",
-	"bs-socialarticleactions-autoeditsummaray": "（無摘要）"
+	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]]已刪除檔案[[:$6|$6]]"
 }

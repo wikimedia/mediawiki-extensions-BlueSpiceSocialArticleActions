@@ -16,6 +16,5 @@
 	"bs-socialarticleactions-entityactionarticledelete-header": "[[User:$1|$2]] raderade artikeln [[:$6|$6]]",
 	"bs-socialarticleactions-entityactionfilesave-header": "[[User:$1|$2]] lade till en ny version av filen [[:$6|$6]]",
 	"bs-socialarticleactions-entityactionfilecreate-header": "[[User:$1|$2]] laddade upp filen [[:$6|$6]]",
-	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] raderade filen [[:$6|$6]]",
-	"bs-socialarticleactions-autoeditsummaray": "(Ingen redigeringssammanfattning)"
+	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] raderade filen [[:$6|$6]]"
 }

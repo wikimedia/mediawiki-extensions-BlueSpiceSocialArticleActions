@@ -17,6 +17,5 @@
 	"bs-socialarticleactions-entityactionarticledelete-header": "[[User:$1|$2]] a supprimé l’article [[:$6|$6]]",
 	"bs-socialarticleactions-entityactionfilesave-header": "[[User:$1|$2]] a ajouté une nouvelle version du fichier [[:$6|$6]]",
 	"bs-socialarticleactions-entityactionfilecreate-header": "[[User:$1|$2]] a téléchargé le fichier [[:$6|$6]]",
-	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] a supprimé le fichier [[:$6|$6]]",
-	"bs-socialarticleactions-autoeditsummaray": "(aucun résumé)"
+	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] a supprimé le fichier [[:$6|$6]]"
 }
