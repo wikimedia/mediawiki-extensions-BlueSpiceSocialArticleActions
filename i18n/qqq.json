@@ -1,15 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
+			"MuratTheTurkish",
 			"Patric Wirth",
 			"Umherirrender",
 			"Vlad5250"
 		]
 	},
 	"bs-socialarticleactions-desc": "{{desc|name=BlueSpiceSocialArticleActions}}",
-	"bs-socialarticleactions-type-articlesave": "Label for option \"articlesave\" in entry field \"type\"\n\n{{Identical|Article edit}}",
-	"bs-socialarticleactions-type-articlecreate": "Label for option \"articlecreate\" in entry field \"type\"\n\n{{Identical|Article create}}",
-	"bs-socialarticleactions-type-articledelete": "Label for option \"articledelete\" in entry field \"type\"\n\n{{Identical|Article delete}}",
+	"bs-socialarticleactions-type-articlesave": "Label for option \"articlesave\" in entry field \"type\"",
+	"bs-socialarticleactions-type-articlecreate": "Label for option \"articlecreate\" in entry field \"type\"",
+	"bs-socialarticleactions-type-articledelete": "Label for option \"articledelete\" in entry field \"type\"",
 	"bs-socialarticleactions-type-filesave": "Label for option \"filesave\" in entry field \"type\"\n\n{{Identical|File edit}}",
 	"bs-socialarticleactions-type-filecreate": "Label for option \"filecreate\" in entry field \"type\"\n\n{{Identical|File create}}",
 	"bs-socialarticleactions-type-filedelete": "Label for option \"filedelete\" in entry field \"type\"\n\n{{Identical|File delete}}",
