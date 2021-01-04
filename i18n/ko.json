@@ -4,6 +4,9 @@
 			"Ykhwong"
 		]
 	},
+	"bs-socialarticleactions-type-filesave": "파일 편집",
+	"bs-socialarticleactions-type-filecreate": "파일 만들기",
+	"bs-socialarticleactions-type-filedelete": "파일 삭제",
 	"bs-socialarticleactions-entityactionarticlesave-header": "[[User:$1|$2]]님이 [[:$6|$6]] 문서를 편집했습니다",
 	"bs-socialarticleactions-entityactionarticlecreate-header": "[[User:$1|$2]]님이 [[:$6|$6]] 문서를 만들었습니다",
 	"bs-socialarticleactions-entityactionarticledelete-header": "[[User:$1|$2]]님이 [[:$6|$6]] 문서를 삭제했습니다",
