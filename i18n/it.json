@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Beta16"
+			"Beta16",
+			"Stefano"
 		]
 	},
 	"bs-socialarticleactions-type-articlecreate": "Voce creata",
@@ -13,5 +14,7 @@
 	"bs-socialarticleactions-entityactionarticledelete-header": "[[User:$1|$2]] ha cancellato la voce [[:$6|$6]]",
 	"bs-socialarticleactions-entityactionfilesave-header": "[[User:$1|$2]] ha aggiunto una nuova versione del file [[:$6|$6]]",
 	"bs-socialarticleactions-entityactionfilecreate-header": "[[User:$1|$2]] ha caricato il file [[:$6|$6]]",
-	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] ha cancellato il file [[:$6|$6]]"
+	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] ha cancellato il file [[:$6|$6]]",
+	"bs-socialarticleactions-type-articlesave": "Modifica Articolo",
+	"bs-socialarticleactions-type-filesave": "Modifica File"
 }
