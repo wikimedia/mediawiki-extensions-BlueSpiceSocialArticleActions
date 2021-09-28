@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Awdsweq123"
+			"Awdsweq123",
+			"Minh Nguyen"
 		]
 	},
-	"bs-socialarticleactions-type-filesave": "Chỉnh sửa tập tin",
+	"bs-socialarticleactions-type-filesave": "Sửa đổi tập tin",
 	"bs-socialarticleactions-type-filecreate": "Tạo tài liệu",
 	"bs-socialarticleactions-type-filedelete": "Xóa tập tin",
 	"bs-socialarticleactions-entityactionfilesave-header": "[[User:$1|$2]] đã thêm phiên bảo tài liệu mới [[:$6|$6]]",
