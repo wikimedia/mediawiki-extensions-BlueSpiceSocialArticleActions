@@ -39,7 +39,7 @@ use BlueSpice\Social\Entity\ActionWikiPage;
  * @subpackage BSSocial
  */
 class ActionArticleSave extends ActionWikiPage {
-	const TYPE = 'articlesave';
+	public const TYPE = 'articlesave';
 
 	/**
 	 *

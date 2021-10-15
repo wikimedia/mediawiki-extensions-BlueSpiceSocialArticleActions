@@ -39,5 +39,5 @@ use BlueSpice\Social\Entity\ActionWikiPage;
  * @subpackage BSSocial
  */
 class ActionArticleCreate extends ActionWikiPage {
-	const TYPE = 'articlecreate';
+	public const TYPE = 'articlecreate';
 }

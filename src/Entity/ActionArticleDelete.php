@@ -39,7 +39,7 @@ use BlueSpice\Social\Entity\ActionTitle;
  * @subpackage BSSocial
  */
 class ActionArticleDelete extends ActionTitle {
-	const TYPE = 'articledelete';
+	public const TYPE = 'articledelete';
 
 	/**
 	 *
