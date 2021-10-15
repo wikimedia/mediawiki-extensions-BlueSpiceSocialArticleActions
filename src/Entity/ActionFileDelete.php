@@ -39,7 +39,7 @@ use BlueSpice\Social\Entity\ActionFile;
  * @subpackage BSSocial
  */
 class ActionFileDelete extends ActionFile {
-	const TYPE = 'filedelete';
+	public const TYPE = 'filedelete';
 
 	/**
 	 *

@@ -39,7 +39,7 @@ use BlueSpice\Social\Entity\ActionFile;
  * @subpackage BSSocial
  */
 class ActionFileSave extends ActionFile {
-	const TYPE = 'filesave';
+	public const TYPE = 'filesave';
 
 	/**
 	 *

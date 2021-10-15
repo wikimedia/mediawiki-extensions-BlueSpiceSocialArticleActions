@@ -39,5 +39,5 @@ use BlueSpice\Social\Entity\ActionFile;
  * @subpackage BSSocial
  */
 class ActionFileCreate extends ActionFile {
-	const TYPE = 'filecreate';
+	public const TYPE = 'filecreate';
 }
