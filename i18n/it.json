@@ -1,11 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Beta16"
+			"Beta16",
+			"Stefano"
 		]
 	},
+	"bs-socialarticleactions-type-articlesave": "Modifica Articolo",
 	"bs-socialarticleactions-type-articlecreate": "Voce creata",
 	"bs-socialarticleactions-type-articledelete": "Voce cancellata",
+	"bs-socialarticleactions-type-filesave": "Modifica File",
 	"bs-socialarticleactions-type-filecreate": "File creato",
 	"bs-socialarticleactions-type-filedelete": "File cancellato",
 	"bs-socialarticleactions-entityactionarticlesave-header": "[[User:$1|$2]] ha modificato la voce [[:$6|$6]]",
