@@ -1,9 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ykhwong"
+			"Ykhwong",
+			"Yunbj"
 		]
 	},
+	"bs-socialarticleactions-type-articlesave": "기사 편집",
+	"bs-socialarticleactions-type-articlecreate": "기사 만들기",
+	"bs-socialarticleactions-type-articledelete": "기사 삭제",
 	"bs-socialarticleactions-type-filesave": "파일 편집",
 	"bs-socialarticleactions-type-filecreate": "파일 만들기",
 	"bs-socialarticleactions-type-filedelete": "파일 삭제",
