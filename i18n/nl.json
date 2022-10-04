@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"McDutchie",
 			"Romaine"
 		]
 	},
+	"bs-socialarticleactions-desc": "Voegt items voor elementaire artikelhandelingen toe aan BlueSpiceSocial",
 	"bs-socialarticleactions-type-articlesave": "Artikel bewerken",
 	"bs-socialarticleactions-type-articlecreate": "Artikel aanmaken",
 	"bs-socialarticleactions-type-articledelete": "Artikel verwijderen",
