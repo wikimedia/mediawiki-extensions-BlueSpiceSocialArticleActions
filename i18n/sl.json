@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"bs-socialarticleactions-desc": "V BlueSpiceSocial doda osnovne vnose dejanj člankov",
+	"bs-socialarticleactions-type-articlesave": "Urejanje članka",
+	"bs-socialarticleactions-type-articlecreate": "Ustvaritev članka",
+	"bs-socialarticleactions-type-articledelete": "Izbris članka",
+	"bs-socialarticleactions-type-filesave": "Urejanje datoteke",
+	"bs-socialarticleactions-type-filecreate": "Ustvaritev datoteke",
+	"bs-socialarticleactions-type-filedelete": "Izbris datoteke",
+	"bs-socialarticleactions-entityactionarticlesave-header": "[[User:$1|$2]] je uredil_a članek [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionarticlecreate-header": "[[User:$1|$2]] je ustvaril_a članek [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionarticledelete-header": "[[User:$1|$2]] je izbrisal_a članek [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfilesave-header": "[[User:$1|$2]] je dodal_a novo različico datoteke [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfilecreate-header": "[[User:$1|$2]] je naložil_a datoteko [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] je izbrisal_a datoteko [[:$6|$6]]"
+}
