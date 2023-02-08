@@ -4,6 +4,17 @@
 			"Amire80"
 		]
 	},
+	"bs-socialarticleactions-desc": "הוספת רשומות של פעולות ערכים בסיסיות ל־BlueSpiceSocial",
 	"bs-socialarticleactions-type-articlesave": "עריכת ערך",
-	"bs-socialarticleactions-type-filesave": "עריכת קובץ"
+	"bs-socialarticleactions-type-articlecreate": "יצירת ערך",
+	"bs-socialarticleactions-type-articledelete": "מחיקת ערך",
+	"bs-socialarticleactions-type-filesave": "עריכת קובץ",
+	"bs-socialarticleactions-type-filecreate": "יצירת קובץ",
+	"bs-socialarticleactions-type-filedelete": "מחיקת קובץ",
+	"bs-socialarticleactions-entityactionarticlesave-header": "[[User:$1|$2]] {{GENDER:$1|ערך|ערכה}} את הערך [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionarticlecreate-header": "[[User:$1|$2]] {{GENDER:$1|יצר|יצרה}} את הערך [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionarticledelete-header": "[[User:$1|$2]] {{GENDER:$1|מחק|מחקה}} את הערך [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfilesave-header": "[[User:$1|$2]] {{GENDER:$1|הוסיף|הוסיפה}} גרסה חדשה של הקובץ [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfilecreate-header": "[[User:$1|$2]] {{GENDER:$1|העלה|העלתה}} את הקובץ [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] {{GENDER:$1|מחק|מחקה}} את הקובץ [[:$6|$6]]"
 }
