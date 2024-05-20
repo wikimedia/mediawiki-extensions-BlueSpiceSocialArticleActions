@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Ykhwong",
-			"Yunbj"
+			"Yunbj",
+			"Suleiman the Magnificent Television"
 		]
 	},
+	"bs-socialarticleactions-desc": "BlueSpiceSocial에 기본 문서 행동 항목을 추가합니다",
 	"bs-socialarticleactions-type-articlesave": "기사 편집",
 	"bs-socialarticleactions-type-articlecreate": "기사 만들기",
 	"bs-socialarticleactions-type-articledelete": "기사 삭제",
