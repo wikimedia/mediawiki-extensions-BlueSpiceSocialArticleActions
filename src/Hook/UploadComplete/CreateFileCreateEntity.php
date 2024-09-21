@@ -5,6 +5,7 @@
 namespace BlueSpice\Social\ArticleActions\Hook\UploadComplete;
 
 use BlueSpice\Hook\UploadComplete;
+use MediaWiki\MediaWikiServices;
 
 class CreateFileCreateEntity extends UploadComplete {
 
@@ -15,7 +16,7 @@ class CreateFileCreateEntity extends UploadComplete {
 			return true;
 		}
 
-		$res = wfGetDB( DB_REPLICA )->select(
+		$res = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_REPLICA )->select(
 			'oldimage',
 			'oi_name',
 			[ 'oi_name' => $file->getTitle()->getDBkey() ],
