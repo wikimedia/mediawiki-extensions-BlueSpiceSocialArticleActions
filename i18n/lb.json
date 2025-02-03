@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
-	"bs-socialarticleactions-type-articlesave": "Artikel önneren",
+	"bs-socialarticleactions-type-articlesave": "Artikel änneren",
 	"bs-socialarticleactions-type-articlecreate": "Artikel uleeën",
 	"bs-socialarticleactions-type-articledelete": "Artikel läschen",
 	"bs-socialarticleactions-type-filesave": "Fichierännerung",
