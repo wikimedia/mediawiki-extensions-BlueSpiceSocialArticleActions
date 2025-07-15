@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Умар"
+		]
+	},
+	"bs-socialarticleactions-type-articlesave": "Йаззамаш хуьйцуш бу",
+	"bs-socialarticleactions-type-articlecreate": "Йаззам кхоьллина",
+	"bs-socialarticleactions-type-articledelete": "Йаззам дӀабаккха",
+	"bs-socialarticleactions-type-filesave": "Файл хийца",
+	"bs-socialarticleactions-type-filecreate": "Файл кхолла",
+	"bs-socialarticleactions-type-filedelete": "Файл дӀайаккха"
+}
