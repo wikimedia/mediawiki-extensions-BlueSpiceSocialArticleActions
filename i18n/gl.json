@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"bs-socialarticleactions-desc": "Engade entradas de acción básicas para os artigos a BlueSpiceSocial",
+	"bs-socialarticleactions-type-articlesave": "Edición do artigo",
+	"bs-socialarticleactions-type-articlecreate": "Creación do artigo",
+	"bs-socialarticleactions-type-articledelete": "Eliminación do artigo",
+	"bs-socialarticleactions-type-filesave": "Edición do ficheiro",
+	"bs-socialarticleactions-type-filecreate": "Creación do ficheiro",
+	"bs-socialarticleactions-type-filedelete": "Eliminación do ficheiro",
+	"bs-socialarticleactions-entityactionarticlesave-header": "[[User:$1|$2]] editou o artigo «[[:$6|$6]]»",
+	"bs-socialarticleactions-entityactionarticlecreate-header": "[[User:$1|$2]] creou o artigo «[[:$6|$6]]»",
+	"bs-socialarticleactions-entityactionarticledelete-header": "[[User:$1|$2]] eliminou o artigo «[[:$6|$6]]»",
+	"bs-socialarticleactions-entityactionfilesave-header": "[[User:$1|$2]] engadiu unha versión nova do ficheiro «[[:$6|$6]]»",
+	"bs-socialarticleactions-entityactionfilecreate-header": "[[User:$1|$2]] subiu o ficheiro «[[:$6|$6]]»",
+	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] eliminou o ficheiro «[[:$6|$6]]»"
+}
