@@ -1,10 +1,21 @@
 {
 	"@metadata": {
 		"authors": [
-			"Lakejason0"
+			"Lakejason0",
+			"Peterxy12"
 		]
 	},
+	"bs-socialarticleactions-desc": "向BlueSpiceSocial添加基本条目操作单元",
+	"bs-socialarticleactions-type-articlesave": "条目编辑",
+	"bs-socialarticleactions-type-articlecreate": "条目创建",
+	"bs-socialarticleactions-type-articledelete": "条目删除",
 	"bs-socialarticleactions-type-filesave": "文件编辑",
 	"bs-socialarticleactions-type-filecreate": "文件创建",
-	"bs-socialarticleactions-type-filedelete": "文件删除"
+	"bs-socialarticleactions-type-filedelete": "文件删除",
+	"bs-socialarticleactions-entityactionarticlesave-header": "[[User:$1|$2]]已编辑条目[[:$6|$6]]",
+	"bs-socialarticleactions-entityactionarticlecreate-header": "[[User:$1|$2]]已创建条目[[:$6|$6]]",
+	"bs-socialarticleactions-entityactionarticledelete-header": "[[User:$1|$2]]已删除条目[[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfilesave-header": "[[User:$1|$2]]已新增文件[[:$6|$6]]的新版本",
+	"bs-socialarticleactions-entityactionfilecreate-header": "[[User:$1|$2]]已上传文件[[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]]已删除文件[[:$6|$6]]"
 }
