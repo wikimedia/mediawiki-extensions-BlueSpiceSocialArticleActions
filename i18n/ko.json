@@ -3,13 +3,14 @@
 		"authors": [
 			"Suleiman the Magnificent Television",
 			"Ykhwong",
-			"Yunbj"
+			"Yunbj",
+			"Tensama0415"
 		]
 	},
 	"bs-socialarticleactions-desc": "BlueSpiceSocial에 기본 문서 행동 항목을 추가합니다",
-	"bs-socialarticleactions-type-articlesave": "기사 편집",
-	"bs-socialarticleactions-type-articlecreate": "기사 만들기",
-	"bs-socialarticleactions-type-articledelete": "기사 삭제",
+	"bs-socialarticleactions-type-articlesave": "문서 편집",
+	"bs-socialarticleactions-type-articlecreate": "문서 만들기",
+	"bs-socialarticleactions-type-articledelete": "문서 삭제",
 	"bs-socialarticleactions-type-filesave": "파일 편집",
 	"bs-socialarticleactions-type-filecreate": "파일 만들기",
 	"bs-socialarticleactions-type-filedelete": "파일 삭제",
