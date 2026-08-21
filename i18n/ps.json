@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"bs-socialarticleactions-desc": "BlueSpiceSocial کې د بنسټيزه ليکنې چارې ننوتنې ورگډوي",
+	"bs-socialarticleactions-type-articlesave": "ليکنه سمول",
+	"bs-socialarticleactions-type-articlecreate": "ليکنه جوړول",
+	"bs-socialarticleactions-type-articledelete": "ليکنه ړنگول",
+	"bs-socialarticleactions-type-filesave": "دوتنه سمول",
+	"bs-socialarticleactions-type-filecreate": "دوتنه جوړول",
+	"bs-socialarticleactions-type-filedelete": "دوتنه ړنگل",
+	"bs-socialarticleactions-entityactionarticlesave-header": "[[User:$1|$2]] د [[:$6|$6]] ليکنه سمه کړه",
+	"bs-socialarticleactions-entityactionarticlecreate-header": "[[User:$1|$2]] د [[:$6|$6]] ليکنه جوړه کړه",
+	"bs-socialarticleactions-entityactionarticledelete-header": "[[User:$1|$2]] د [[:$6|$6]] ليکنه ړنگه کړه",
+	"bs-socialarticleactions-entityactionfilesave-header": "[[User:$1|$2]] د [[:$6|$6]] ليکنې نوې بلبڼه ورگډه کړه",
+	"bs-socialarticleactions-entityactionfilecreate-header": "[[User:$1|$2]] د [[:$6|$6]] دوتنه راپورته کړه",
+	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] د [[:$6|$6]] دوتنه ړنگه کړه"
+}
